@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+<head>
+    <title>Ig challenge</title><!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <meta content="Informacje o konkursie Ig challenge" name="description">
+    <meta content="comeptition, infinity group, ig challenge, praktyki, web developer" name="keywords">
+    <meta content="Infinity group" name="author">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href='http://fonts.googleapis.com/css?family=Noto+Sans&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=News+Cycle&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <header>
+			<div class="navigation">
+				<div class="logo">
+					<a href="#"><img alt="Infinity Group logo" id="logo" src="logo.png"></a>
+				</div>
+				<div class="line-thin"></div>
+						<nav class="menu">
+								<ul>
+										<li>
+												<a href="#">o nas</a>
+										</li>
+										<li>
+												<a href="#">co robimy</a>
+										</li>
+										<li>
+												<a href="#">realizacje</a>
+										</li>
+										<li>
+												<a href="#">kontakt</a>
+										</li>
+								</ul>
+						</nav>
+						<div class="language">
+							<a  href="#">PL</a>
+							<a  href="#">EN</a>
+							<a  href="#">IT</a>
+						</div>
+				</div>
+    </header>
+    <main id="cont">
+				<div class="line-inside-top">
+						<a href="#"><img id="close" alt="close" src="iconx.png"></a>
+				</div>
+        <h1 class="name">IG challenge!</h1>
+        <h2 class="summary">Masz już pomysł na wakacje? W Infinity Group czeka
+        na Ciebie 3-tygodniowy staż w dziale Web Developement!</h2>
+        <div class="line-inside"></div>
+        <section class="description">
+            <div class="part-1">
+                <h3>Jeśli chcesz:</h3>
+                <ul>
+									<li><span>rozwijać się w kierunku front-end javascript, CSS3,</span></li>
+                    <li><span>doskonalić swoje umiejętności z zakresu html5,</span></li>
+                    <li><span>zgłębić tajniki  Responsive Web Design</span></li>
+                </ul>
+            </div>
+            <div class="part-2">
+                <h3>Co na Ciebie czeka?</h3>
+                <ul>
+                    <li><span>w pełni wyposażone stanowisko komputerowe,</span></li>
+                    <li><span>opieka mentora,</span></li>
+                    <li><span>doświadczenie przy prawdziwych projektach dla klientów agencji.</span></li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+            <div class="part-3">
+                <h3>Zgłoś się!</h3>
+                    <p>Podczas stażu w Infinity Group zdobędziesz praktyczne umiejętności, poznasz realia pracy przy dużych projektach, staniesz się częścia zespołu złożonego z doświadczonych specjalistów.</p>
+            </div>
+            <div class="part-4">
+                <h3>Co zrobić by wziąć udział w stażu?</h3>
+                <ul>
+                    <li><span>Wypełnij formularz kontaktowy</span></li>
+                    <li><span>Rozwiąż zadanie, do którego dostęp otrzymasz drogą mailową</span></li>
+                    <li><span>Twórców najlepszych rozwiązań zaprosimy na rozmowę i wybierzemy najlepsza dwójkę chetnych!</span></li>
+                </ul>
+            </div>
+        </section>
+				<div class="line-inside"></div>
+        <section class="graphics">
+					<h1>Podejmij IG challenge - wypuść pierwsze kody za płoty</h1>
+					<p>Pobierz materiały i dowiedz się na czym polega zadanie. Na
+					zgłoszenia czekamy do ...</p>
+						<figure id="screen">
+							<img alt="Infinity Group - pobierz materiały" id="monitor" src="screen.png">
+							<a href="#"><img id="point" alt="Pobierz materiały" src="point.png"></a>
+						</figure>
+				</section>
+				<section id="form">
+					<h2>Formularz zgłoszeniowy</h2>
+					<form id="application" name="application" action="#">
+						<div class="col-1a">
+							<label for="name">Imię:</label><br>
+							<input id="name" name="name" type="text">
+						</div>
+						<div class="col-2a">
+							<label for="surname">Nazwisko:</label><br>
+							<input id="surname" name="surname" type="text">
+						</div>
+						<div class="col-1a">
+							<label for="user-email">Adres e-mail:</label><br>
+							<input id="user-email" name="user-email" type="email">
+						</div>
+						<div class="col-2a">
+							<label for="user-tel">Telefon kontaktowy:</label><br>
+							<input id="user-tel" name="user-tel" type="tel">
+						</div>
+						<div class="col-1b">
+							<label for="kierunek">Kierunek studiów:</label><br>
+							<input id="kierunek" name="kierunek" type="text" list="kierunki">
+							<datalist id="kierunki">
+							 <option value="Front-end development" label="Front-end development">
+							 <option value="Marketing Internetowy" label="Marketing Internetowy">
+							 <option value="Informatyka" label="Informatyka">
+  						</datalist>
+						</div>
+						<div class="col-2b">
+							<label for="rok">Rok studiów:</label><br>
+							<input id="rok" name="rok" type="number" min="1" max="5">
+						</div>
+						<div class="col-1c">
+							<label><input type="checkbox">Wyrażam zgodę na przetwarzanie moich
+							danych osobowych <a href="#" id="hide" onclick="show">cała
+							treść</a></label>
+							</div>
+						<div class="col-2c">
+							<input id="send" type="submit" value="Wyślij zgłoszenie">
+						</div>
+					</form>
+				</section>
+							<div class="clear"></div>
+    </main>
+
+    <footer>
+			<div class="footer-contents">
+					<div class="footer-part">
+							<p>Infity Group. ready to deliver.</p>
+					</div>
+
+					<div class="footer-part">
+							<img alt="telefon - ikona" src="tel.png">
+							<p>+48.85.652.09.20</p>
+					</div>
+
+					<div class="footer-part">
+							<img alt="list - ikona" src="mail.png">
+							<p>biuro@infinty-group.pl</p>
+					</div>
+
+					<div class="footer-part">
+							<img alt="facebook - ikona" src="fb.png">
+							<p>dołącz do nas</p>
+					</div>
+
+					<div class="footer-part">
+							<p>&copy;2014 Infinity Group</p>
+					</div>	
+        </div>
+    </footer>
+</body>
+</html>
